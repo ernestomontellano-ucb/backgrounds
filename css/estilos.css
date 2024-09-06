@@ -1,0 +1,54 @@
+/* RESETEO */
+:root{
+--naranja : rgb(228, 115, 16);
+--rojo: rgb(133, 21, 15);
+--morado: #490668;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BACKGROUND */
+main{
+    padding: 100px;
+    background: #eee;
+}
+
+.caja{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color:var(--morado);
+    background-image: url(../imgs/motivo.gif);
+}
+
+
+/* LOGO RESPONSIVE */
+/* todos los altos son 294
+ultima:   658
+primera:303
+*/
+
+header h1{
+    height: 294px;
+    width: 303px;
+    background-image: url(../imgs/responsive_logo.jpg);
+    background-position:-1617px 0;
+    text-indent:-9999px;
+}
+/* MEDIA QUERY */
+@media screen and (min-width:391px){
+    header h1{
+        width:415px;
+        background-position: -1202px 0;
+    }    
+}
+
+
+
+gi|
